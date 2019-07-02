@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Html CSS Resposive </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="all">
+        <div id="header">
+            <h1>Web Logo</h1>
+        </div>
+        <div id="nav">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="menu">Menu</div>
+        </div>
+        <div id="main">
+            <div id="welcome">
+                <h1>welcome to the website </h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
+                     pariatur perspiciatis, qui vitae exercitationem natus praesentium 
+                     tempore quidem aspernatur itaque aperiam, dolor sequi veniam 
+                     suscipit corrupti nostrum maiores quasi maxime.
+                </p>
+                <br/>
+                <div class="grid1">
+                    <img src="./img/skytown.jpg" alt="">
+                    <strong>Grid Title 1</strong><br/>
+                        GitHub Inc. is a web-based hosting service for version control using Git. It is mostly used for computer code.
+                         It offers all of the distributed version control
+                         <br/><br/>
+                </div>
+                <div class="grid2">
+                    <img src="./img/autumn.jpg" alt="">
+                    <strong>Grid Title 2</strong><br/>
+                        GitHub Inc. is a web-based hosting service for version control using Git. It is mostly used for computer code.
+                         It offers all of the distributed version control
+                         <br/><br/>
+                </div>
+                <div class="grid3">
+                    <img src="./img/sea.jpg">
+                    <br/><strong>Grid Title 3</strong><br/>
+                        GitHub Inc. is a web-based hosting service for version control using Git. It is mostly used for computer code.
+                         It offers all of the distributed version control
+                         <br/><br/>
+                </div>
+            </div>
+            <div id="sidebarwidget">
+                <div class="boxgedget">
+                    <h2>Poppular Active</h2>
+                </div>
+                <p id="pWidget">
+                    GitHub brings together the world's largest community of developers to discover, 
+                    share, and build better software. From open source projects to private team.
+                </p>
+            </div>
+        </div>
+        <div id="footer">
+            Copyright &copy; Resposive Template 2018, All rights reserved.
+        </div>
+    </div>
+    <script>
+    $('.menu').on('click',function(){
+        $('#nav ul').slideToggle(5);
+    });
+    </script>
+</body>
+</html>

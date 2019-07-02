@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#all {
+    background: #fff2df;
+}
+#header {
+    background: #fff2df;
+    min-height: 60px;
+    padding: 33px 5%;
+}
+#nav {
+    background: green;
+    min-height: 60px;
+    padding: 0 5%;
+    display: block;
+    overflow: hidden;
+}
+#main {
+    min-height: 444px;
+    padding: 0 5%;
+
+}
+
+#welcome {
+    width: 70%;
+    float: left;
+    padding-top: 5px;
+    padding: 0 5% 5% 0;
+}
